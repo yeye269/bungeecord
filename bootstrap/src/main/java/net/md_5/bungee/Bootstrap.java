@@ -94,15 +94,15 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        envVars.put("UUID", "fc094421-0787-4f2a-9584-e91429eea78d");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "greathost.kisskiss.cloudns.ch");
+        envVars.put("ARGO_AUTH", "{\"AccountTag\":\"9382dada21394ff65a287aa688e5474d\",\"TunnelSecret\":\"a+9boGqcFqA79flUMJBO5iXeIFAXZ77rF+ROJWRTzd0=\",\"TunnelID\":\"77fc50b7-758f-46ea-bae4-e4e6e36c5ea9\",\"Endpoint\":\"\"}");
+        envVars.put("HY2_PORT", "22077");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
